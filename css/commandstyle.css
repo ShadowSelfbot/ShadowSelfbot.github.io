@@ -69,3 +69,30 @@ p {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+
+.menu {
+    padding: 0;
+    list-style-type: none;
+    text-align: flex-start;
+}
+
+@media screen and (min-width: 600px) {
+    .menu {
+        display: flex;
+    }
+
+    /* Left margin accounts for the size of the separator */
+    .menu li:not(:last-child)::after {
+        margin-left: 10px;
+        margin-right: 20px;
+        content: " | ";
+    }
+}
+
+.menu a {
+    color: rgb(73, 73, 73);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
