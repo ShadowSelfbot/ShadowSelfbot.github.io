@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
-
 body {
-    background-color: lightblue;
-  }
-  
-  h1 {
-    color: navy;
-    margin-left: 20px;
+    font-family: 'DM Sans', sans-serif;
+    color: rgba(185, 17, 17, 0.841);
+    font-weight: 400;
+    line-height: 1.58;
+    letter-spacing: -.003em;
+    font-size: 20px;
+    padding: 70px;
   }
