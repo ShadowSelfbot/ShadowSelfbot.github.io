@@ -1,0 +1,80 @@
+body,
+html {
+    background: url('/img/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    font-family: 'Poppins';
+    color: #333;
+    padding: 0 20px;
+}
+
+.full-height {
+    min-height: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-fill {
+    flex: 1;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title {
+    font-size: 64px;
+    margin: 0;
+}
+
+p {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.batman {
+    margin: 1.2rem 0;
+    color: white;
+}
+
+.batman:hover {
+    color: #333;
+}
+
+.links {
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .links {
+        display: flex;
+    }
+
+    /* Left margin accounts for the size of the separator */
+    .links li:not(:last-child)::after {
+        margin-left: 10px;
+        margin-right: 16px;
+        content: " / ";
+    }
+}
+
+.links a {
+    color: #222;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
