@@ -21,7 +21,7 @@ html {
 }
 
 .flex-center {
-    align-items: flex-start;
+    align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,6 +29,7 @@ html {
 
 .title {
     font-size: 64px;
+    text-align: start;
     margin: 0;
 }
 
@@ -40,6 +41,8 @@ p {
 .text-center {
     text-align: center;
 }
+
+
 
 .links {
     padding: 0;

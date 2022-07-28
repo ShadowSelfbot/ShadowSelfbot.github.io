@@ -21,7 +21,7 @@ html {
 }
 
 .flex-center {
-    align-items: flex-start;
+    align-items: flex-end;
     display: flex;
     flex-direction: column;
     justify-content: center;
