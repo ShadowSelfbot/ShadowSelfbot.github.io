@@ -1,9 +1,10 @@
 body,
 html {
+    background-color: #272727;
     height: 100%;
     margin: 0;
     font-family: 'Poppins';
-    color: #333;
+    color: rgb(255, 255, 255);
     padding: 0 20px;
 }
 
@@ -21,7 +22,7 @@ html {
 }
 
 .flex-center {
-    align-items: flex-end;
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,7 +62,7 @@ p {
 }
 
 .links a {
-    color: #222;
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
@@ -88,10 +89,15 @@ p {
 }
 
 .menu a {
-    color: rgb(73, 73, 73);
+    color: rgb(255, 255, 255);
     letter-spacing: 2px;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-
+.menu a {
+    color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
