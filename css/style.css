@@ -93,3 +93,10 @@ p {
     text-transform: uppercase;
     text-decoration: none;
 }
+
+.menu a {
+    color: rgb(73, 73, 73);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
