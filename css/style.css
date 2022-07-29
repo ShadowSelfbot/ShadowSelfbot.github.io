@@ -29,8 +29,12 @@ html {
 }
 
 #this shit is more broken than my cock
+#can vouch
 .Shadowimage {
-    align-items: flex-end;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
 }
 
 .title {
