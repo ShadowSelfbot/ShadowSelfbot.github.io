@@ -151,7 +151,7 @@ p {
  }
  
  .title:hover { 
-    color: #547AA5; 
+    color: #494949; 
  }
  .title:hover::before {
     transform: translateY(0);
