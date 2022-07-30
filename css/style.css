@@ -4,7 +4,7 @@ html {
     height: 100%;
     margin: 0;
     font-family: 'Poppins';
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     padding: 0 20px;
 }
 
@@ -134,7 +134,7 @@ p {
     overflow: hidden;
     color: rgb(255, 255, 255);
     vertical-align: bottom;
-    transition: color .3s ease-out;
+    transition: color .2s ease-out;
  }
  
  .title::before {
@@ -146,14 +146,15 @@ p {
     transform: translateY(calc(100% - 2px));
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(60deg, #f85555 0%, #9ce5bd 100%);
-    transition: transform .25s ease-out;
+    background-image: linear-gradient(60deg, #a51212 0%, #131577 100%);
+    transition: transform .2s ease-out;
  }
  
  .title:hover { 
-    color: #fff; 
+    color: #547AA5; 
  }
  .title:hover::before {
     transform: translateY(0);
-    transition: transform .25s ease-out;
+    transition: transform .35s ease-out;
  }
+ 
