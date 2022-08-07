@@ -109,7 +109,7 @@ p {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #ab0808;
+    background-color: #c0c0c0;
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
   }
   
@@ -146,12 +146,12 @@ p {
     transform: translateY(calc(100% - 2px));
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(60deg, #a51212 0%, #131577 100%);
+    background-image: linear-gradient(60deg, #535353 0%, #c9c9cd 100%);
     transition: transform .2s ease-out;
  }
  
  .title:hover { 
-    color: #69b2b2; 
+    color: #FFFFFF; 
  }
  .title:hover::before {
     transform: translateY(0);

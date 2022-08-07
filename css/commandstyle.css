@@ -68,19 +68,29 @@ p {
     text-decoration: none;
 }
 
+.title {
+    margin:auto;
+    font-size:90px;
+    position:relative;
+    top:100px;
+}
+
 .styled-table {
     border-collapse: collapse;
-    margin: 25px 0;
+    margin: auto;
     font-size: 0.9em;
     font-family: sans-serif;
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.608);
+    position:relative;
+    top:-120px;
 }
 
 .styled-table thead tr {
     background-color: #363636;
     color: #ffffff;
     text-align: center;
+    
 }
 
 .styled-table th,
@@ -97,7 +107,7 @@ p {
 }
 
 .styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #3a006f;
+    border-bottom: 2px solid #c0c0c0;
 }
 
 @media screen and (min-width: 600px) {
@@ -135,7 +145,7 @@ p {
     right: 0;
     width: 0;
     height: 2px;
-    background-color: #ab0808;
+    background-color: #C0C0C0;
     transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
   }
   
@@ -147,4 +157,5 @@ p {
     }
   }
 
+  
 
