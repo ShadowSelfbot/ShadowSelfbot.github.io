@@ -102,7 +102,7 @@ p {
 
 @media screen and (min-width: 600px) {
     .menu {
-        display: flex;
+        display:flex; 
     }
 
     /* Left margin accounts for the size of the separator */
@@ -120,6 +120,8 @@ p {
 
 .menu {
     list-style:none;
+    margin-left:none;
+    padding:0px;
 }
   
   .underline{
