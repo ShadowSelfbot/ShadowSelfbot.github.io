@@ -117,6 +117,10 @@ p {
     text-decoration: none;
     color: #ffffff;
   }
+
+.menu {
+    list-style:none;
+}
   
   .underline{
     position: relative;
@@ -140,3 +144,5 @@ p {
       width: 100%;
     }
   }
+
+
