@@ -72,7 +72,7 @@ p {
     margin:auto;
     font-size:90px;
     position:relative;
-    top:100px;
+    top:10px;
 }
 
 .styled-table {
@@ -83,7 +83,8 @@ p {
     min-width: 400px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.608);
     position:relative;
-    top:-120px;
+    top:-30px;
+    
 }
 
 .styled-table thead tr {
