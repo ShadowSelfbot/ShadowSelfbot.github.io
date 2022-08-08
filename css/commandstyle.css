@@ -87,11 +87,16 @@ p {
 }
 
 .styled-table thead tr {
+    background-color: #272727;
+    color: #ffffff;
+    text-align: center;   
+}
+.styled-table tbody tr {
     background-color: #363636;
     color: #ffffff;
-    text-align: center;
-    
+    text-align: center;   
 }
+
 
 .styled-table th,
 .styled-table td {
