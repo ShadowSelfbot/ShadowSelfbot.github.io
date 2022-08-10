@@ -108,7 +108,10 @@ table::-webkit-scrollbar {
     display: none;
 }
 
-
+table {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
 
 .styled-table thead tr {
     background-color: #272727;
