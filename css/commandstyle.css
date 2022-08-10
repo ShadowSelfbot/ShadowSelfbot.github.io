@@ -85,7 +85,30 @@ p {
     position:relative;
     top:-30px;
     
+    
 }
+table{
+    overflow-y:scroll; 
+   height:580px; 
+   display:block;  
+   margin-top:50px;    
+   border: 1px solid #272727;
+   border-radius:12px;
+  }
+   
+  td{
+   width:300px;    
+   }
+
+html {
+    overflow-y:hidden;
+}
+
+table::-webkit-scrollbar {
+    display: none;
+}
+
+
 
 .styled-table thead tr {
     background-color: #272727;
@@ -112,8 +135,9 @@ p {
     background-color: #272727;
 }
 
-.styled-table tbody tr:last-of-type {
-    border-bottom: 2px solid #c0c0c0;
+.styled-table {
+    position: relative;
+    top:-70px;
 }
 
 @media screen and (min-width: 600px) {
