@@ -69,10 +69,12 @@ p {
 }
 
 .title {
+    display:flex;
     margin:auto;
     font-size:90px;
     position:relative;
     top:10px;
+    justify-content:center;
 }
 
 .styled-table {
@@ -89,7 +91,8 @@ p {
 }
 table{
     overflow-y:scroll; 
-   height:580px; 
+   height:580px;; 
+   width:80%;
    display:block;  
    margin-top:50px;    
    border: 1px solid #272727;
