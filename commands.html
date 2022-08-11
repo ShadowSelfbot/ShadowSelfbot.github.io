@@ -8,7 +8,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="searchjava" href="search.js">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <title>Shadow Selfbot - Commands.</title>
@@ -33,6 +32,7 @@
                 <a href="https://www.github.com/shadowselfbot"target="_blank" class = "underline">Github.</a>
             </li>
         </ul>
+        <input type="text" id="myinput" onkeyup=filterCommands(document.getElementById("myinput")) placeholder="Search for a command...">
         <div class="full-height flex-column">
             <div class="flex-fill flex-center">
                 <h1 class="title text-center">Commands.</h1>
@@ -148,7 +148,7 @@
                             <td>Displays information about a user</td>
                             <td>N</td>
                         </tr>
-                        
+                        <script src="./search.js"></script>
                         
                         <!-- and so on... -->
                     </tbody>
