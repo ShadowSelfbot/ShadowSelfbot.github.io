@@ -90,8 +90,7 @@ p {
 }
 table{
     overflow-y:scroll; 
-   height:580px;; 
-   width:80%;
+   height:580px;
    display:block;  
    margin-top:50px;    
    border: 1px solid #272727;
