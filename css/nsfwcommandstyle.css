@@ -205,7 +205,7 @@ table {
     vertical-align: bottom;
     transition: color .2s ease-out;
  }
- 
+
  .title::before {
     content: "";
     position: absolute;
