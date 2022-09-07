@@ -8,6 +8,7 @@ html {
     padding: 0 20px;
 }
 
+
 .full-height {
     min-height: 100%;
 }
@@ -48,19 +49,19 @@ p {
     text-align: center;
 }
 
+
 @media screen and (min-width: 600px) {
-    .links {
-        display: flex;
-    }
+  .links {
+      display: flex;
+  }
 
-    /* Left margin accounts for the size of the separator */
-    .links li:not(:last-child)::after {
-        margin-left: 10px;
-        margin-right: 16px;
-        content: " / ";
-    }
+  /* Left margin accounts for the size of the separator */
+  .links li:not(:last-child)::after {
+      margin-left: 10px;
+      margin-right: 16px;
+      content: " / ";
+  }
 }
-
 .links a {
     color: rgb(255, 255, 255);
     letter-spacing: 2px;
@@ -145,30 +146,33 @@ table {
     top:-70px;
 }
 
-@media screen and (min-width: 600px) {
-    .menu {
-        display:flex; 
-    }
+.menu {
+  padding: 0;
+  list-style-type: none;
+  text-align: flex-start;
+ padding-top:16px;
+  
+}
 
-    /* Left margin accounts for the size of the separator */
-    .menu li:not(:last-child)::after {
-        margin-left: 10px;
-        margin-right: 20px;
-        content: " | ";
-    }
+@media screen and (min-width: 600px) {
+  .menu {
+      display: flex;
+  }
+
+  /* Left margin accounts for the size of the separator */
+  .menu li:not(:last-child)::after {
+      margin-left: 10px;
+      margin-right: 20px;
+      content: " | ";
+  }
 }
 
 .menu a{
-    text-decoration: none;
-    color: #ffffff;
-  }
-
-.menu {
-    list-style:none;
-    margin-left:none;
-    padding:0px;
+  text-decoration: none;
+  color: #ffffff;
+ 
 }
-  
+
   .underline{
     position: relative;
   }
@@ -273,24 +277,6 @@ table {
     box-shadow: 0 0 25px 0 #535353
    }
    
-   #button-holder img{
-    margin-left:1435px;
-    margin-top:133px;
-    width:35px; 
-    height:35px;
-    position:relative;
-    z-index:1000;
-   }
-
-   #button-holder{
-    background-color:transparent;
-    cursor:pointer;
-    float:left;
-    height:27px;
-    margin:11px 0 0 0;
-    text-align:center;
-    width:50px;
-   }
 
      input:hover {
        cursor: pointer;

@@ -25,7 +25,7 @@
           table = document.getElementById("myTable");
           tr = table.getElementsByTagName("tr");
         
-          // Loop through all table rows, and hide those who don't match the search query
+  
           for (i = 0; i < tr.length; i++) {
             td = tr[i].getElementsByTagName("td")[0];
             if (td) {
@@ -58,13 +58,12 @@
                 <a href="https://www.github.com/shadowselfbot"target="_blank" class = "underline">Github.</a>
             </li>
         </ul>
+   
         <div class="container">
             <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for a command..">
             <div class="search"></div>
-          </div>
-          <div id='button-holder'>
-            <img src='imgs/searchicon.png' />
         </div>
+
         <div class="full-height flex-column">
             <div class="flex-fill flex-center">
                 <h1 class="title text-center">Commands.</h1>
@@ -271,5 +270,6 @@
                 </table>
             </div>
         </div>
+    
     </body>
 </html>
