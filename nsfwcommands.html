@@ -16,6 +16,36 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,600" type="text/css">
     <!-- Style -->
     <link rel="stylesheet" href="css/nsfwcommandstyle.css">
+    <script>
+         
+        function myFunction() {
+          // Declare variables
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("myInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("myTable");
+          tr = table.getElementsByTagName("tr");
+        
+  
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }
+          }
+        }
+        function showAll(){
+    var $rows = $('#findings tr');
+  $rows.show();
+}
+var buttonClearFilter = $('#clearFilter');
+buttonClearFilter.click(showAll());
+    </script>
 </head>    
     <body>
         <ul class="menu">
@@ -35,6 +65,11 @@
                 <a href="https://www.github.com/shadowselfbot"target="_blank" class = "underline">Github.</a>
             </li>
         </ul>
+        <form class="search-box">
+            <input type="text" id="myInput" onkeyup ="myFunction()" placeholder="Search for a command.."/>
+            <button id="clearFilter"></button>
+            
+        </form>
         <div class="full-height flex-column">
             <div class="flex-fill flex-center">
                 <h1 class="title text-center">NSFW Commands.</h1>
