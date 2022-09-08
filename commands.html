@@ -38,7 +38,16 @@
             }
           }
         }
-        </script>
+        function showAll(){
+    var $rows = $('#findings tr');
+  $rows.show();
+}
+
+var buttonClearFilter = $('#clearFilter');
+buttonClearFilter.click(showAll());
+
+        
+    </script>
 </head>    
     <body>
         <ul class="menu">
@@ -61,7 +70,8 @@
    
         <form class="search-box">
             <input type="text" id="myInput" onkeyup ="myFunction()" placeholder="Search for a command.."/>
-            <button type="reset" id="clear"></button>
+            <button id="clearFilter"></button>
+            
         </form>
 
         <div class="full-height flex-column">
